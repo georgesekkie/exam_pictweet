@@ -49,3 +49,5 @@ group :test do
   gem 'ffaker'
   gem 'database_cleaner', '~> 1.3.0'
 end
+
+gem 'rake', '< 11.0'
