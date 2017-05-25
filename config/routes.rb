@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   resources :tweets, :except => [:show]
   # get     '/tweets'           => 'tweets#index'
-  # post    '/tweets'           => 'tweets#create'
+  # post    '/tweets/create'           => 'tweets#create'
   # get     '/tweets/new'       => 'tweets#new'
   # delete  '/tweets/:id'       => 'tweets#destroy'
   # get     '/tweets/:id/edit'  => 'tweets#edit'
